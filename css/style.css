@@ -1,0 +1,19 @@
+/* Bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+/* Universal selector */
+/* Font-Family*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: black;
+    --secondary:rgb(250, 234,234,1);
+    --alternative:rgb(105,85,85,1) ;
+    --awesome:rgb(234,214,214,1)  ;
+}
+    
