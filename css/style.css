@@ -16,4 +16,22 @@
     --alternative:rgb(105,85,85,1) ;
     --awesome:rgb(234,214,214,1)  ;
 }
+
+body{
+    font-family:'Castoro';
+}
+
+a{
+    transition: all .3s;
+}
+.navbar a:is(:hover, :focus) {
+    text-decoration:underline none;
+    scale: 1.2;
+    background-color: var(--awesome);
+    border-radius: 60%;
+    color: var(--alternative);
+}
+.nav-link {
+    color: var(--secondary)   
+}
     
